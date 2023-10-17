@@ -1,0 +1,205 @@
+
+@media screen and (max-width: 1000px){
+
+    body{
+        width: 98%;
+        background-color: #ffffff;
+    }
+}
+
+
+/*
+
+@media screen and (max-width: 912px){
+
+
+    aside {
+
+        height: 2440px;
+    }
+
+}
+
+@media screen and (max-width: 820px){
+
+    body {
+
+        margin-top: 8px;
+    }
+
+    aside {
+
+        height: 2630px;
+    }
+
+}
+
+@media screen and (max-width: 768px){
+
+
+    aside {
+
+        height: 2720px;
+    }
+
+
+}
+
+@media screen and (max-width: 767px){
+
+
+    #menu1 {
+
+        display: none;
+    }
+
+    #menu2 {
+
+        display:block;
+
+    }
+
+}
+
+@media screen and (max-width: 728px){
+
+    body {
+
+        margin-top: 6px;
+    }
+
+    aside {
+
+        height: 2850px;
+    }
+
+}
+
+@media screen and (max-width: 700px){
+
+    body {
+
+        margin-top: 4px;
+    }
+
+    .button {
+
+        display: none;
+    }
+
+
+    section {
+
+        width: 100%;
+    }
+
+    #twitterEscritorio {
+
+        display: none;
+    }
+
+    #twitterMovil {
+
+        display: block;
+    }
+
+    aside {
+
+        width: 100%;
+        height: 510px;
+
+    }
+
+    body{
+
+        background-color: #ffffff;
+    }
+
+    .somospartelogos {
+
+        display: inline-block;
+        text-align: center;
+        margin: auto;
+        height: auto;
+        width: 18%;
+    }
+}
+
+
+@media screen and (max-width: 414px){
+
+    body {
+
+        width: 98%;
+        margin-top: 3px;
+    }
+
+    .foto {
+
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+
+    iframe {
+
+        width: 100%;
+        height: 15em;
+        margin-bottom: 10px;
+    }
+
+    .icons {
+
+        float: right;
+        margin-top: 70px;
+        margin-right: 3px;
+    }
+
+}
+
+
+@media screen and (max-width: 365px){
+
+    #logo {
+        position: absolute;
+        display: inline-block;
+        width: 80px;
+        top: 7px;
+    }
+
+    #titulo {
+
+        font-size: medium;
+        letter-spacing: 0px;
+        top: 25px;
+        left: 80px;
+    }
+
+}
+
+@media screen and (max-width: 276px){
+
+    #logo {
+        position: absolute;
+        display: inline-block;
+        width: 80px;
+    }
+
+    #titulo {
+
+        font-size:15px;
+        letter-spacing: 0px;
+        left: 80px;
+    }
+    
+    @media screen and (max-width: 254px){
+
+        #titulo {
+
+            top: 20px;
+
+        }
+
+    }
+
+}
