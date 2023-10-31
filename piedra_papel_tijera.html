@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="estilo.css">
+	<script type="text/javascript" src="codigoJs.js"></script>
+	<title></title>
+</head>
+
+
+
+<body>
+<h1>Juego-piedra-papel-tijera-lagarto-spock</h1>
+
+<form id="nameEnter">
+          <button id="newGame" type="button" onclick="tryagain()">Nueva partida</button>
+</form>
+	
+ 	<nav title="Tus opciones:" id = "player">
+        <button type="button" id ="button1" onclick="plySelect(1)"><img src="img/rock.png"/></button>
+        <button type="button" id ="button2" onclick="plySelect(2)"><img src="img/paper.png"/></button>
+        <button type="button" id ="button3" onclick="plySelect(3)"><img src="img/scissors.png"/></button>
+        <button type="button" id ="button4" onclick="plySelect(4)"><img src="img/lizard.png"/></button>
+        <button type="button" id ="button5" onclick="plySelect(5)"><img src="img/spock.png"/></button>
+       
+	</nav>
+
+    <main id = "main">
+        <header id = "resultHeader">
+        	<div class= score id = "rP">Jugador: 0</div><div class= score id = "rC">Rival: 0</div><p id="victoria">Quién ganará...</p></header>
+        <br>
+        <section id = "pl1Option">
+            <img id ="imgPlayerSel" src="img/rock.png">
+        </section>
+        <section id = "vs">VS</section>
+        <section id = "pl2Option">
+            <img id ="imgRivalSel" src="img/rock.png">
+        </section>
+    </main>
+
+	<aside id = "rival">
+	        <p>Rival</p>
+	        <img src="img/rock.png">
+	        <img src="img/paper.png">
+	        <img src="img/scissors.png">
+	        <img src="img/lizard.png">
+	        <img src="img/spock.png">
+	</aside>
+
+    <footer id="footer">© Group 4 - Olga Pichel - Julián Méndez  </footer>
+
+</body>
+</html>

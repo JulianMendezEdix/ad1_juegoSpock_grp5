@@ -1,0 +1,163 @@
+h1{
+    background-color: black;
+    color: white;
+}
+* {
+
+    /*outline: orangered solid 1px;*/
+    font-family: 'arvo', arial;
+    letter-spacing: 3px;
+    text-align: center;
+}
+
+body {
+    margin: auto;
+    width: 960px;
+    margin-top: 5px;
+}
+
+html, body, #wrapper {
+    height: 480px;
+  }
+
+#header {
+    height: auto;
+    background-color: #000000;
+    border-top-right-radius: 20px;
+    box-shadow: 2px 5px 12px #818892;
+    padding: 5px;
+
+}
+
+#title {
+    text-align: center;
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#nameEnter {
+    text-align: center;
+    color: white ;
+    margin:0;
+    padding: 15px;
+}
+
+#player {
+    float: left;
+    width: 25%;
+    height: 100%;
+    box-shadow: 0px 0px 2px #818892;
+}
+
+  
+#player img {
+    display: block;
+    width: 80px;
+    margin: auto;
+    overflow: hidden;
+    text-align: left;
+  }
+
+#main {
+    float: left;
+    width: 50%;
+    height: 100%;
+
+}
+
+#rP{
+    height: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: green;
+}
+#rC{
+    height: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: right;
+    color:red;
+    padding: auto;
+}
+
+#vs{
+    height: 20%;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+
+#result{
+    height: 30%;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#pl1Option{
+    float: left;
+    width: 40%;
+    height: 70%;
+    overflow: hidden;
+}
+
+#imgSel {
+
+    width: 100%;
+    margin: auto;
+}
+#imgComSel {
+
+    width: 100%;
+    margin: auto;
+}
+
+#vs{
+    float: left;
+    width: 20%;
+    height: 80%;
+    overflow: hidden;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+#pl2Option{
+    float: left;
+    width: 40%;
+    height: 70%;
+    overflow: hidden;
+}
+
+#computer {
+    float: left;
+    width: 25%;
+    height: 100%;
+    box-shadow: 0px 0px 2px #818892;
+    overflow: hidden;
+}
+
+#computer img {
+    display: block;
+    width: 80px;
+    margin: auto;
+    overflow: hidden;
+}
+
+#footer {
+
+    float: none;
+    width: 100%;   
+    box-shadow: 2px 5px 12px #818892;
+    clear: left;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: #000000;
+    color: white;
+
+}
